@@ -26,6 +26,7 @@ import { CoursesCardListComponent } from './courses-card-list/courses-card-list.
         TopMenuComponent,
         CoursesCardListComponent
     ],
+    exports: [MatSidenavModule],
     imports: [
         BrowserModule,
         BrowserAnimationsModule,
